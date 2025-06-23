@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(183, 188, 192);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 60px -60px 15px rgb(145, 155, 155);
+}
+
+.card-header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(4, 86, 119);
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 20px;
+    border: 3px solid white;
+    object-fit: cover;
+    
+
+}
+
+.card-body {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 8px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(5, 45, 60);
+}
+
+h4{
+    font-size: 15px;
+    color: rgb(64, 66, 66);
+    margin-top: 6px;
+}
+
+.card-footer {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px
+}
+
+.social-icons a:hover {
+    transition: all 0.3s ease-in-out;
+
+}
+
+.social-icons a{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+}
+.link {
+    background-color:#3aabe7 ;
+}
+
+.X{
+    background-color: rgb(199, 196, 196);
+}
+
+.insta {
+    background-color:#d62976 ;
+}
+.git {
+    background-color: #333131;
+    color: white;
+}
+
+
+.footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+   
+
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: .9em;
+    font-weight: 600;
+    background-color: rgb(31, 121, 156);
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(4, 86, 119);
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
